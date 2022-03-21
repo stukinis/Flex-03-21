@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+#header, #footer {
+    height: 15%;
+    background-color:rgb(9, 31, 129);
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+div {
+    border: 1px solid white;
+}
+
+.container {
+    height: 55%;
+    background-color: rgb(172, 23, 23);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+
+}
+
+#hero {
+    height: 30%;
+    background-color: coral;
+    width: 40%;
+    order: 1;
+}
+
+#sidebar {
+    height: 70%;
+    background-color: purple;
+    width: 40%;
+    order: 2;
+}
+
+#main {
+    height: 70%;
+    background-color: rgb(191, 202, 39);
+    width: 60%;
+    order: 3;
+}
+
+#extracontent {
+    height: 30%;
+    background-color: rgb(52, 52, 204);
+    width: 60%;
+    order: 4;
+}
+
+.relate {
+    height: 15%;
+    background-color: rgb(43, 204, 196);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#imagerelate {
+    width: 60%;
+    background-color: green;
+
+}
+
+#relatedposts {
+    width: 40%;
+    background-color: lightgreen;
+}
+
